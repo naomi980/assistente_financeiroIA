@@ -1,0 +1,10 @@
+data, descricao, categoria, valor, tipo
+2026-03-01, Salário, receita, 5000.00, entrada
+2026-03-04, aluguel, Moradia, 2000.00, saída
+2026-03-06, mercado, Alimentacao, 400.00, saída
+2026-03-08, cinema, Entretenimento, 30.00, saída
+2026-03-08, restaurante, Alimentacao, 60.00, saída
+2026-03-14, energia elétrica, Moradia, 30.00, saída
+2026-03-15, plano de saúde, Saude, 700.00, saída
+2026-03-20, academia, Saude, 200.00, saída
+2026-03-21, netflix, Assinaturas, 30.00, saída

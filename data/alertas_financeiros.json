@@ -1,0 +1,14 @@
+[
+    {
+        "alerta": "fatura_alta",
+        "mensagem": "Seus gastos no cartão estão altos este mês. Ficar atento para não comprometer o próximo mês."
+    },
+    {
+        "alerta": "gastos_maiores",
+        "mensagem": "Seus gastos estão mais elevados em relação ao mês passado."
+    },
+    {
+        "alerta": "pequenos_gastos",
+        "mensagem": "Pequenos gastos podem passar despercebidos, mas no total representam um valor significativo."
+    }
+]

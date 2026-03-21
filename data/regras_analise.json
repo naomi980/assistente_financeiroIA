@@ -1,0 +1,22 @@
+[
+    {
+        "regra": "gastos_maiores_que_renda",
+        "condicao": "gastos_totais > renda",
+        "mensagem": "Seus gastos estão maiores que sua renda. Isso pode gerar endividamento!"
+    },
+    {
+        "regra": "muitas_assinaturas",
+        "condicao": "assinaturas > 5",
+        "mensagem": "Você possui muitas assinaturas. Oportunidade para reavaliar assinaturas atuais e economizar!"
+    },
+    {
+        "regra": "sem_investimentos",
+        "condicao": "investimentos == 0",
+        "mensagem": "Você ainda não possui investimentos. Começar uma reserva de emergência pode ser um bom primeiro passo!"
+    },
+    {
+        "regra": "muito_gasto_com_entretenimento",
+        "condicao": "entretenimento > 10",
+        "mensagem": "Você está gastando muito com entretenimento. Oportunidade para reavaliar gastos."
+    }
+]

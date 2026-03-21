@@ -1,0 +1,15 @@
+{
+  "confirmacao_gasto": [
+    "Já registrei esse gasto.",
+    "Gasto registrado com sucesso.",
+    "Esse valor já foi adicionado aos seus gastos."
+  ],
+  "inicio_analise": [
+    "Vou analisar seus gastos e já te mostro um resumo.",
+    "Vou organizar suas despesas e verificar para onde seu dinheiro foi."
+  ],
+  "fim_analise": [
+    "Pronto, analisei seus gastos.",
+    "Aqui está o resumo financeiro do seu mês."
+  ]
+}
