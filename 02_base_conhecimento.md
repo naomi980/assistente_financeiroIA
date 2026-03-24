@@ -37,23 +37,14 @@ Existem duas possibilidades, injetar os dados diretamente no prompt (Ctrl + C, C
 import pandas as 
 import json
 
-#CSVs
-categoria = pd.read_csv("data/categoria_gastos.csv")
-estabelecimentos = pd.read_csv("data/estabelecimentos_categoria.csv")
-percentuais = pd.read_csv("data/percentuais_financeiros.csv")
-
-#JSONs
-with open ("data/regras_analise.json", "r" , encoding= "utf-8") as f: 
-    regras = json.load(f)
-
-with open ("data/alertas_financeiros.json", "r" , encoding= "utf-8") as f: 
-    alertas = json.load(f)    
-
-with open ("data/respostas_padrao.json", "r" , encoding= "utf-8") as f: 
-    respostas = json.load(f)     
-
-with open ("data/dicas_financeiras.json", "r" , encoding= "utf-8") as f: 
-    dicas = json.load(f) 
+categorias = pd.read_csv(".\data\categoria_transacao.csv")
+estabelecimentos = pd.read_csv(".\data\estabelecimentos_categoria.csv")
+transacoes = pd.read_csv(".\data\transacoes.csv")
+percentuais = pd.read_csv(".\data\percentuais_financeiros.csv")
+alertas = json.load(open(".\data\alertas_financeiros.json"))
+dicas = json.load(open(".\data\dicas_financeiras.json"))
+regras = json.load(open(".\data\regras_analise.json"))
+respostas_padrao = json.load(open(".\data\respostas_padrao.json"))
 ``` 
 
 
