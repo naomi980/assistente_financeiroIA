@@ -27,7 +27,7 @@ def registrar_transacao(mensagem):
         descricao = partes[2]
         categoria = partes[3]
         data = partes[4]
-        
+        #caso usuário insira data no formato inadequado
         ano, mes, dia = data.split("-")
         if len(ano) != 4:
             raise ValueError
@@ -60,7 +60,6 @@ def registrar_transacao(mensagem):
 def montar_contexto():
     transacoes = pd.read_csv("./data/transacoes.csv")
 
-    # converter data
     transacoes["data"] = pd.to_datetime(
         transacoes["data"],
         errors="coerce"
