@@ -45,6 +45,8 @@ alertas = json.load(open("./data/alertas_financeiros.json"))
 dicas = json.load(open("./data/dicas_financeiras.json"))
 regras = json.load(open("./data/regras_analise.json"))
 respostas_padrao = json.load(open("./data/respostas_padrao.json"))
+=======
+
 ``` 
 
 
