@@ -53,9 +53,10 @@ Crie testes simples para validar seu agente:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- O agente consegue analisar bem os gastos. 
+- O agente consegue analisar bem os gastos.
+- O agente conseguiu guardar na memória novas transações adicionadas pelo cliente.
 
 **O que pode melhorar:**
-- Havia dado um input no chat sobre um novo gasto no mês em relação a investimentos. Na próxima pergunta, ele não considerou esse gasto adicional. Não é possível adicionar novos dados pelo chat (pelo menos usando o ollama), necessário atualizar a base de dados diretamente.
+- Inserir códigos para identificar erros de input do usuário. 
 
 ---
