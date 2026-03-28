@@ -27,8 +27,7 @@ def registrar_transacao(mensagem):
         descricao = partes[2]
         categoria = partes[3]
         data = partes[4]
-        #data = datetime.strptime(data, "%Y-%m-%d").strftime("%Y-%m-%d")
-
+        
         ano, mes, dia = data.split("-")
         if len(ano) != 4:
             raise ValueError
