@@ -1,10 +1,10 @@
 categoria, descricao, tipo
-Renda, salário, provento, aluguel, entrada
-Moradia, aluguel, água, energia eletrica, gás, internet, saída
-Alimentacao, mercado, restaurantes, delivery, saída
-Transporte, transporte público, gasolina, uber, saída
-Saude, plano de saúde, remédios, academia, terapia, saída
-Entretenimento, cinema, viagens, hobbies, shows, compras online, roupa, eletrônicos, saída
-Assinaturas, netflix, spotify, apps, saída
-Investimentos, tesouro direto, ações, FII, ETF, saída
-Educacao, cursos, certificados, faculdade, saída
+Renda, salário; provento; aluguel, entrada
+Moradia, aluguel; água; energia eletrica; gás; internet, saída
+Alimentacao, mercado; restaurantes; delivery, saída
+Transporte, transporte público; gasolina; uber, saída
+Saude, plano de saúde; remédios; academia; terapia, saída
+Entretenimento, cinema; viagens; hobbies; shows; compras online; roupa; eletrônicos, saída
+Assinaturas, netflix; spotify; apps, saída
+Investimentos, tesouro direto; ações; FII; ETF, saída
+Educacao, cursos; certificados; faculdade, saída

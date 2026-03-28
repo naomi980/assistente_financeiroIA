@@ -6,7 +6,7 @@
     },
     {
         "regra": "muitas_assinaturas",
-        "condicao": "assinaturas > 5",
+        "condicao": "assinaturas > 5%",
         "mensagem": "Você possui muitas assinaturas. Oportunidade para reavaliar assinaturas atuais e economizar!"
     },
     {
@@ -16,7 +16,7 @@
     },
     {
         "regra": "muito_gasto_com_entretenimento",
-        "condicao": "entretenimento > 10",
+        "condicao": "entretenimento > 10%",
         "mensagem": "Você está gastando muito com entretenimento. Oportunidade para reavaliar gastos."
     }
 ]
